@@ -38,7 +38,7 @@ This utility uses VSCode for some "glossy" functions.
 Features using VSCode:
 1. Piping commands into the terminal based on keyboard shortcuts and selected line number.
 - See `.vscode/keybindings.json`.
-- These settings will need to be installed in you user settings. 
+- These settings will need to be installed in you user settings.
 - Example installation location (MacOS): `/Users/<username>/Library/Application Support/Code/User/keybindings.json`.
 1. Opening SQL results into a new editor tab.
 - See `func openFile(file string) error` in `session.go`.
@@ -59,7 +59,7 @@ Features using VSCode:
 ## Noted Quirks
 
 1. Leading comments are ran as empty queries instead of being extracted prior to execution.
-1. When querying by line number, trailing comments can cause execution to continue. 
+1. When querying by line number, trailing comments can cause execution to continue.
 - To stop this, just use `;` without any comments when delineating queries.
 
 ## Contributions

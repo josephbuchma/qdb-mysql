@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"os"
 
-	"qdb-mysql/cmd"
+	"github.com/flourishsoftware/qdb-mysql/cmd"
 
 	"github.com/sirupsen/logrus"
 	"github.com/subosito/gotenv"

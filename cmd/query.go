@@ -4,10 +4,10 @@ import (
 	"bufio"
 	"bytes"
 	"fmt"
+	"github.com/flourishsoftware/qdb-mysql/utils"
 	"os"
 	"os/exec"
 	"path/filepath"
-	"qdb-mysql/utils"
 	"strings"
 	"time"
 

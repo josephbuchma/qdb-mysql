@@ -5,7 +5,7 @@ import (
 	"io"
 	"os"
 	"path/filepath"
-	"qdb-mysql/utils"
+	"github.com/flourishsoftware/qdb-mysql/utils"
 	"strconv"
 	"strings"
 )

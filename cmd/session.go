@@ -7,10 +7,10 @@ package cmd
 import (
 	"bufio"
 	"fmt"
+	"github.com/flourishsoftware/qdb-mysql/session"
+	"github.com/flourishsoftware/qdb-mysql/utils"
 	"os"
 	"os/exec"
-	"qdb-mysql/session"
-	"qdb-mysql/utils"
 
 	"path/filepath"
 	"strings"

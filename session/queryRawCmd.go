@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"io"
 	"os"
-	"qdb-mysql/utils"
+	"github.com/flourishsoftware/qdb-mysql/utils"
 )
 
 type QueryRawCmd struct {

@@ -3,7 +3,7 @@ package cmd
 import (
 	"context"
 
-	"qdb-mysql/utils"
+	"github.com/flourishsoftware/qdb-mysql/utils"
 
 	_ "github.com/go-sql-driver/mysql"
 	"github.com/spf13/cobra"
